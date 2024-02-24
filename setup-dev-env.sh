@@ -1,6 +1,6 @@
 #!/bin/bash
 
-bashrc_url='https://github.com/viictoo/Shell-Automata/blob/main/dotfiles/.bashrc'
+bashrc_url='https://github.com/viictoo/Shell-Automata/blob/main/dotfiles/profile'
 
 # Update and upgrade the system
 sudo apt update && sudo apt upgrade -y
@@ -27,8 +27,8 @@ sudo apt-get install curl -y
 #read bashrc_url
 
 # setup terminal
-curl -o ~/.bashrc $bashrc_url
-source ~/.bashrc
+curl -o ~/.profile $profile_url
+source ~/.profile
 
 # Install curl
 sudo apt-get install curl -y
